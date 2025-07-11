@@ -7,15 +7,14 @@ const HomeScreen = () => {
   return (
     <SafeAreaView>
       <View>
-        <Text>HomeScreen</Text>
-        <Link href="/products">
+        <Link className="mb-5" href="/products">
           <Text>Go to Products</Text>
         </Link>
-        <Link href="/settings">
-          <Text>Go to Settings</Text>
-        </Link>
-        <Link href="/profile">
+        <Link className="mb-5" href="/profile">
           <Text>Go to Profile</Text>
+        </Link>
+        <Link className="mb-5" href="/settings">
+          <Text>Go to Settings</Text>
         </Link>
       </View>
     </SafeAreaView>
