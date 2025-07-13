@@ -8,7 +8,7 @@ const HomeScreen = () =>
 {
   return (
     <SafeAreaView>
-      <View className="mt-5 px-10">
+      <View className="px-10">
         <CustomButton
           className='mb-2'
           onPress={() => router.push('/products')}
