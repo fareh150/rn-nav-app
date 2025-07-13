@@ -24,8 +24,7 @@ const RootLayout = () => {
         return null; // or a loading indicator
     }
     return (
-        //<Slot />
-        <Stack/>
+        <Slot />
     );
 };
 
