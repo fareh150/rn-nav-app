@@ -1,0 +1,10 @@
+{
+  "typescript.preferences.include-package-json-auto-imports": "on",
+  "typescript.suggest.paths": true,
+  "typescript.preferences.use-aliases-for-renames": true,
+  "typescript.suggest.autoImports": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "typescript.validate.enable": true
+}
