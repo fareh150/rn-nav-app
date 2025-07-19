@@ -17,7 +17,7 @@ const productsScreen = () => {
             <View className='flex flex-row justify-between'>
               <Text className='font-work-black'>${item.price}</Text>
               <Link
-                href={`/tabs/products/${item.id}`}
+                href={`/drawer/tabs/products/${item.id}`}
                 className='text-primary'
               >
                 Ver detalles
